@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "@react-three/fiber": "^8.14.3",
+    "lil-gui": "^0.18.2",
+    "node": "^20.7.0",
+    "three": "^0.156.1",
+    "vite": "^5.3.5"
+  },
+  "name": "ace-combat",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "",
+  "license": "ISC"
+}

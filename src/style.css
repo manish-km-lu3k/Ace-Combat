@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+#c {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  outline: none;
+}
+
+.leftimage-container {
+  position: absolute;
+  display: flex;
+  left: 35%;
+  justify-content: center;
+  align-items:end;
+  height: 95vh;
+}
+.rightimage-container {
+  position: absolute;
+  display: flex;
+  left: 55%;
+  justify-content: center;
+  align-items:end;
+  height: 95vh;
+}
+
+/* Style each individual circular image */
+.circular-image {
+  width: 50px;
+  height: 50px;
+  background-color:inherit;
+  border-radius: 50%;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* Style the images inside the circular images */
+.circular-image img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 70%;
+}
+.circular-image img:hover {
+  /* background-color: rgb(215, 255, 253); */
+  opacity: 100%;
+}
+
+.zoom {
+  position: absolute;
+  display: flex;
+  left: 70%;
+  justify-content: center;
+  align-items:end;
+  height: 95vh;
+}
+
+#z:hover {
+  cursor: pointer;
+}
+
+#title {
+  position: absolute;
+  z-index: 1;
+  top: 5%;
+  left: 35%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+#name {
+  position: absolute;
+  z-index: 1;
+  top: 10%;
+  left: 40%;
+  font-size: 50px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: brown;
+}
+
