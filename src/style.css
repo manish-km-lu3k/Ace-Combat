@@ -98,9 +98,9 @@ body {
     left: 30%;
   }
   .leftimage-container {
-    top: -5%;
+    bottom: 5%;
   }
   .rightimage-container {
-    top: -5%;
+    bottom: 5%;
   }
 }
